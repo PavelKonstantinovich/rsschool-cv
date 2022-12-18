@@ -5,7 +5,7 @@
 }
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 body {
@@ -14,78 +14,93 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #244145;
-  background-color: #CACBD3 ;
+  background-color: #CACBD3;
 }
-section{
+
+section {
   border-radius: 20px;
   box-shadow: 10px 40px 50px rgba(166, 169, 182, .4);
   padding: 30px;
   margin: 20px 0;
   width: 49%;
 }
-.coding{
+
+.coding {
   background-color: #EDEDF0;
-  /* font-size: 10px; */
 }
-.container{
+
+.container {
   width: 80%;
   margin: 0 auto;
-  
+
 }
-.avatar img{
+
+.avatar img {
   max-width: 250px;
   border-radius: 50%;
 }
 
-section img{
+section img {
   max-width: 450px;
   margin-top: 20px;
 }
-.avatar, .main{
+
+.avatar,
+.main {
   display: flex;
   flex-wrap: wrap;
-   justify-content: space-between;
+  justify-content: space-between;
 }
-.avatar{
+
+.avatar {
   justify-content: space-around;
   align-items: center;
   padding: 30px 0;
 }
-.name{
+
+.name {
   text-align: center;
   padding-bottom: 30px;
 }
+
 a {
   text-decoration: none;
   color: #244145
 }
-nav ul{
+
+a:hover {
+  color: #080D0E
+}
+
+nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+
+ul {
   list-style: none;
 }
 
-nav ul li{
-  padding: 0 20px;
+nav ul li {
   line-height: 50px;
-  
 }
-nav a{
+
+nav a {
   color: white;
 }
-footer, header{
+
+footer,
+header {
   color: white;
   background-color: #32374E;
 }
-.bstu{
-  margin-top: 20px;
-  max-width: 450px;
-}
-h2{
+
+h2 {
   padding-bottom: 20px;
 }
-.footer{
+
+.footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -93,14 +108,47 @@ h2{
   margin-top: 20px;
 }
 
-.school, .github {
-  max-width: 230px;
+.school,
+.github {
+  max-width: 130px;
   display: block;
   padding: 20px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1250px) {
+  section img {
+    width: 200px;
+  }
+
+  .coding {
+    font-size: 12px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 770px) {
   section {
     width: 100%;
   }
+
+  .container {
+    width: 90%;
+  }
+
+  .coding {
+    font-size: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+
+  }
+
+  body {
+    font-size: 15px;
+  }
+
 }
