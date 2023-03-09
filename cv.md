@@ -1,6 +1,6 @@
 # Pavel Skoda
 ## Contact information:
-* Phone: +375 29 7208846
+* Phone: +375 29 72088**
 * E-mail: pashakonstantinovich@gmail.com
 ## Briefly About Myself:
 I’m interested in Web Development because this occupation provides endless possibilities for professional growth,
