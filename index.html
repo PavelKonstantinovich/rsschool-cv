@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pavel_cv</title>
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="avatar">
+        <div class="name">
+          <h1>Pavel Shkoda</h1>
+          <h3>Junior Frontend Developer</h3>
+        </div>
+        <img src="assets/img/avatar.png" alt="avatar">
+      </div>
+      <hr>
+      <nav>
+        <ul>
+          <li class="contacts"><a href="#contacts">CONTACTS</a></li>
+          <li class="summary"><a href="#summary">SUMMARY</a></li>
+          <li class="skills"><a href="#skills">SKILLS</a></li>
+          <li class="code"><a href="#code">CODE</a></li>
+          <li class="courses"><a href="#courses">COURSES</a></li>
+          <li class="projects"><a href="#projects">PROJECTS</a></li>
+          <li class="education"><a href="#education">EDUCATION</a></li>
+          <li class="languages"><a href="#languages">LANGUAGES</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="main">
+      <section class="contacts" id="contacts">
+        <h2>Contact information:</h2>
+        <ul>
+          <li class="phone">Phone: +375 29 72088**</li>
+          <li class="mail">E-mail: pashakonstantinovich@gmail.com</li>
+          <li class="telegram">Telegram: @PavelShkoda</li>
+          <li class="discord">Discord: MaDnick#5473</li>
+        </ul>
+      </section>
+      <section class="summary" id="summary">
+        <h2>Briefly About Myself:</h2>
+        <p>I’m interested in Web Development because this occupation provides endless possibilities for professional
+          growth,besides there’s a huge amount of free high quality resources for self-education and a large community
+          of developers.</p>
+        <p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a
+          proficient Frontend Developer.</p>
+      </section>
+      <section class="skills" id="skills">
+        <h2>Skills and Proficiency:</h2>
+        <ul>
+          <li class="html5">HTML5</li>
+          <li class="css3">CSS3</li>
+          <li class="js">JavaScript</li>
+        </ul>
+      </section>
+      <section class="code" id="code">
+        <h2>Sample code:</h2>
+        <p>You need to write a function that reverses the words in a given string. A word can also fit an empty string.
+        </p>
+        <p>Here are some examples:</p>
+        <p>As the input may have trailing spaces, you will also need to ignore unneccesary whitespace.</p>
+        <p>Example (Input --> Output)</p>
+        <p>"Hello World" --> "World Hello"</p>
+        <p>"Hi There." --> "There. Hi"</p>
+        <div class="coding">
+          <pre>
+
+ function reverse(string){
+  let arr = string.split(' ')
+  let newStr= arr.reverse().join(' ')
+  return newStr
+ }
+        </pre>
+        </div>
+      </section>
+      <section id="courses">
+        <h2 class="courses">Courses:</h2>
+        <ul>
+          <li><a href="https://learn.javascript.ru/" target="_blank">JavaScript Manual on learnjavascript.ru</a></li>
+          <li><a href="https://rs.school/js-stage0/" target="_blank">RS Schools «JavaScript/Front-end. Stage 0»</a></li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2 class="projects">Project:</h2>
+        <a href="https://rolling-scopes-school.github.io/pavelkonstantinovich-JSFEPRESCHOOL2022Q4/momentum/"
+          target="_blank">my future project Momentum</a>
+        <a href="https://rolling-scopes-school.github.io/pavelkonstantinovich-JSFEPRESCHOOL2022Q4/plants/"
+          target="_blank">my future project Plants</a>
+        <a href="https://pavelkonstantinovich.github.io/cssBayan/cssBayan/" target="_blank">my future project Bayan</a>
+      </section>
+      <section id="education">
+        <h2 class="education">Education:</h2>
+        <a href="https://www.bstu.by/" target="_blank"><img class="bstu" src="assets/img/bstu-logo-lightblue-en.svg"
+            alt="Brest State Technical University"></a>
+      </section>
+      <section id="languages">
+        <h2 class="languages">Languages:</h2>
+        <ul>
+          <li>
+            <h4>BELARUSIAN - Native</h4>
+          </li>
+          <li>
+            <h4>UKRAINIAN - Intermediate</h4>
+          </li>
+          <li>
+            <h4>ENGLISH - Elementary</h4>
+          </li>
+          <li>
+            <h4>RUSSIAN - Native</h4>
+          </li>
+        </ul>
+        <img src="assets/img/En_level.jpg" alt="English level">
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer">
+      <a href="https://github.com/PavelKonstantinovich" target="_blank"><img class="github" src="assets/img/Logo.png"
+          alt="my github"></a>
+      <p>&copy; 2022</p>
+      <a href="https://rs.school/index.html" target="_blank"><img class="school" src="assets/img/rss.svg"
+          alt="rs-school"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
