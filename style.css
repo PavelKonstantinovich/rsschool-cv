@@ -65,7 +65,8 @@ section img {
 
 a {
   text-decoration: none;
-  color: #244145
+  color: #244145;
+  display: block;
 }
 
 a:hover {
