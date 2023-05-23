@@ -35,6 +35,55 @@ section {
 
 }
 
+.phone a::before {
+  content: '';
+  background: url(assets/img/mobile-alt-solid.svg)no-repeat left center;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+.mail a::before {
+  content: '';
+  background: url(assets/img/at-solid.svg)no-repeat left center;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+.telegram a::before {
+  content: '';
+  background: url(assets/img/paper-plane-solid.svg)no-repeat left center;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+.discord a::before {
+  content: '';
+  background: url(assets/img/discord.svg)no-repeat left center;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+.html5::before {
+  content: '';
+  background: url(assets/img/html5.svg)no-repeat left center;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+.js::before {
+  content: '';
+  background: url(assets/img/js-square.svg)no-repeat left center;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+.css3::before {
+  content: '';
+  background: url(assets/img/css3-alt.svg)no-repeat left center;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
 .avatar img {
   max-width: 250px;
   border-radius: 50%;
